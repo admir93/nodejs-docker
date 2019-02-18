@@ -12,7 +12,7 @@ var tekst = randomstring.generate();
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World, This is Admir via Jenkins! Feb 18. Random string: ' + tekst);
+  res.send('Hello World, This is Admir via Jenkins! Feb 18, 2019. Random string: ' + tekst);
 });
 
 
